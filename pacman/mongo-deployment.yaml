@@ -11,6 +11,8 @@ spec:
       name: mongo
   template:
     metadata:
+      annotations:
+        sidecar.istio.io/inject: "true"
       labels:
         name: mongo
     spec:
