@@ -1,4 +1,5 @@
 resources:
+- memory.yaml
 - mongo-pvc.yaml
 - mongo-deployment.yaml
 - mongo-service.yaml
