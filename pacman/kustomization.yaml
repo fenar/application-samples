@@ -1,3 +1,4 @@
+namespace: pacman
 resources:
 - resource.yaml
 - mongo-pvc.yaml
