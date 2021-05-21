@@ -44,3 +44,8 @@ Using the application console, you can easily create an Application that runs Pa
 - Commit your change
 - Within 60s the background of the Pac-man board will change to green (don't forget to refresh your browser)
 - The demo is ready to be run again
+
+### ArgoCD Role
+```
+oc adm policy add-cluster-role-to-user cluster-admin -z openshift-gitops-argocd-application-controller -n openshift-gitops
+```
